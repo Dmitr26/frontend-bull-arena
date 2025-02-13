@@ -1,0 +1,122 @@
+.matador {
+    height: 200px;
+    position: relative;
+}
+
+.m-hat {
+    width: 45px;
+    height: 20px;
+    background-color: #000000;
+    top: 6px;
+    left: 98px;
+    z-index: 3;
+    position: absolute;
+}
+
+.m-head {
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #f2ccb7;
+    top: 16px;
+    left: 101px;
+    z-index: 2;
+    position: absolute;
+}
+
+.m-eyes {
+    width: 23px;
+    display: flex;
+    justify-content: space-between;
+    top: 32px;
+    left: 108px;
+    z-index: 3;
+    position: absolute;
+}
+
+.m-eye {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.m-beard {
+    width: 33px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: 39px;
+    left: 104px;
+    z-index: 3;
+    position: absolute;
+}
+
+.m-mouth {
+    background-color: #000000;
+    width: 18px;
+    height: 6px;
+    border-radius: 0% 0% 100% 100%;
+    top: 44px;
+    left: 111px;
+    z-index: 4;
+    position: absolute;
+}
+
+.m-redflag {
+    width: 130px;
+    height: 90px;
+    background-color: #ff0000;
+    top: 56px;
+    left: 60px;
+    z-index: 2;
+    position: absolute;
+}
+
+.m-hands {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    left: 55px;
+    z-index: 3;
+    position: absolute;
+}
+
+.m-hand {
+    width: 24px;
+    height: 20px;
+    background-color: #f2ccb7;
+}
+
+.m-legs {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    top: 146px;
+    left: 90px;
+    z-index: 2;
+    position: absolute;
+}
+
+.m-leg {
+    width: 24px;
+    height: 35px;
+    background-color: #000000;
+}
+
+.m-boots {
+    width: 68px;
+    display: flex;
+    justify-content: space-between;
+    top: 178px;
+    left: 86px;
+    z-index: 3;
+    position: absolute;
+}
+
+.m-boot {
+    width: 30px;
+    height: 12px;
+    background-color: #623e22;
+}
