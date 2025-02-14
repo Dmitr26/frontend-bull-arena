@@ -24,6 +24,10 @@
     position: absolute;
 }
 
+#young {
+    visibility: hidden;
+}
+
 .m-eyes {
     width: 23px;
     display: flex;

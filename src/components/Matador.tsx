@@ -66,7 +66,7 @@ const MatadorFC: React.FC<MatadorInterface> = ({ applause, matadorPosition, setM
     }, [applause, prevApplause]);
 
     return <div>
-        <Mata />
+        <Mata oldOrYoung={"young"} />
     </div>
 }
 

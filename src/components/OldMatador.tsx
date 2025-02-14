@@ -3,7 +3,7 @@ import clapping1 from '../assets/clapping1.wav';
 import clapping2 from '../assets/clapping2.wav';
 import clapping3 from '../assets/clapping3.wav';
 import clapping4 from '../assets/clapping4.wav';
-import Mata from "./Matador/oldIndex";
+import Mata from "./Matador/index";
 
 interface MatadorInterface {
     applause?: number;
@@ -92,7 +92,7 @@ class OldMatador extends Component<MatadorInterface, MatadorState> {
 
     render() {
         return <div>
-            <Mata />
+            <Mata oldOrYoung={"old"} />
         </div>
     }
 }

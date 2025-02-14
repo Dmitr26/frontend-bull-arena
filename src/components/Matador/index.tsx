@@ -1,7 +1,11 @@
 import { memo } from 'react';
 import './Matador.css';
 
-const Mata = () => {
+interface mataInterface {
+    oldOrYoung: string
+}
+
+const Mata = (props: mataInterface) => {
     return (
         <div className="matador">
             <div className="m-hat"></div>
@@ -10,6 +14,7 @@ const Mata = () => {
                 <div className="m-eye"></div>
                 <div className="m-eye"></div>
             </div>
+            <div className="m-beard" id={props.oldOrYoung}></div>
             <div className="m-mouth"></div>
             <div className="m-redflag"></div>
             <div className="m-hands">
